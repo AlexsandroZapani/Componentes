@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px; /* Largura do contêiner */
+    height: 400px; 
+    border: 1px solid #000;
+    position: relative;
+}
+
+.square {
+    width: 50px; /* Largura dos quadrados */
+    height: 50px; /* Altura dos quadrados */
+    background-color: rgb(141, 141, 206);
+    margin: 10px; /* Espaçamento entre os quadrados */
+    border: 5px solid #000;
+    position: absolute;
+}
+
+.retangulo {
+    width: 20px; /* Largura dos quadrados */
+    height: 100px; /* Altura dos quadrados */
+    background-color: rgb(141, 141, 206);
+    margin: 10px; /* Espaçamento entre os quadrados */
+    border: 5px solid #000;
+}
+
+.bigsquare {
+    width: 100px; /* Largura dos quadrados */
+    height: 100px; /* Altura dos quadrados */
+    background-color: rgb(141, 141, 206);
+    margin: 10px; /* Espaçamento entre os quadrados */
+    border: 5px solid #000;
+}
